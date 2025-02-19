@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "titulo";
+    src: url(fonts/Hello\ Valentina.ttf) format("truetype");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor_cabecalho: rgb(255, 142, 36);
+    --cor_cabecalho2:rgb(182, 123, 68);
+    --cor_nav: rgb(161, 111, 63);
+}
+
+body {
+    background-color: azure;
+}
+
+header {
+    height: 4em;
+    background-image: linear-gradient(to bottom,var(--cor_cabecalho),var(--cor_cabecalho2));
+}
+
+header h1 {
+    color: rgb(0, 0, 0);
+    font-size: 3.5em;
+    font-family: titulo,Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    text-align: center;
+}
+
+nav {
+    height: 2.5em;
+    background-color: var(--cor_nav);
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 30px;
+    color: white;
+}
