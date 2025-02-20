@@ -3,6 +3,11 @@
     src: url(fonts/Hello\ Valentina.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "navegacao";
+    src: url(fonts/Hey\ Comic.otf) format("opentype");
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -14,11 +19,11 @@
 }
 
 body {
-    background-color: azure;
+    background-image: url(images/imagemDeFundo.png);
 }
 
 header {
-    height: 4em;
+    height: 4.5em;
     background-image: linear-gradient(to bottom,var(--cor_cabecalho),var(--cor_cabecalho2));
 }
 
@@ -36,7 +41,50 @@ nav {
 }
 
 nav a {
+    font-family: navegacao,Arial, Helvetica, sans-serif;
     text-decoration: none;
+    text-shadow: 2px 3px 1px black;
     padding-left: 30px;
     color: white;
+}
+
+main {
+    background-color: white;
+    margin: 20px 30px 30px 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+
+main h1 {
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+main h1::before {
+    content: "🛒";
+}
+
+main h1::after {
+    content: "🛒";
+}
+
+main p.conteudo01 {
+    text-align: center;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+}
+
+main div {
+    display: inline-block;
+}
+
+main div.produto01 p#subconteudo {
+    margin-left: 20px;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+}
+
+main div.produto01 p#preco {
+    margin-left: 50px;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
