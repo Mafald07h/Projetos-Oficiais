@@ -249,6 +249,117 @@ main div.produto06 button:hover {
     background-color: var(--cor_cabecalho);
 }
 
+/* Produto07* - Nova Configuração*/
+
+main div.produto07 p#subconteudo {
+    margin-left: 20px;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+}
+
+main div.produto07 p#preco {
+    margin-left: 50px;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+main div.produto07 button {
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    background-color: var(--cor_cabecalho2);
+    border-radius: 10px;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+main div.produto07 button:hover {
+    background-color: var(--cor_cabecalho);
+}
+
+/* Produto08* - Nova Configuração*/
+
+main div.produto08 p#subconteudo {
+    margin-left: 20px;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+}
+
+main div.produto08 p#preco {
+    margin-left: 50px;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+main div.produto08 button {
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    background-color: var(--cor_cabecalho2);
+    border-radius: 10px;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+main div.produto08 button:hover {
+    background-color: var(--cor_cabecalho);
+}
+
+/* Produto09* - Nova Configuração*/
+
+main div.produto09 p#subconteudo {
+    margin-left: 20px;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+}
+
+main div.produto09 p#preco {
+    margin-left: 50px;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+main div.produto09 button {
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    background-color: var(--cor_cabecalho2);
+    border-radius: 10px;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+main div.produto09 button:hover {
+    background-color: var(--cor_cabecalho);
+}
+
+/* Produto10* - Nova Configuração*/
+
+main div.produto10 p#subconteudo {
+    margin-left: 20px;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+}
+
+main div.produto10 p#preco {
+    margin-left: 50px;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+main div.produto10 button {
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    background-color: var(--cor_cabecalho2);
+    border-radius: 10px;
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+main div.produto10 button:hover {
+    background-color: var(--cor_cabecalho);
+}
 
 footer {
     height: 190px;
