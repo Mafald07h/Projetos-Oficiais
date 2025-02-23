@@ -361,10 +361,58 @@ main div.produto10 button:hover {
     background-color: var(--cor_cabecalho);
 }
 
+/* Parte do article 1*/
+
+main article {
+    background-color: var(--cor_cabecalho2);
+    margin: 20px 40px 20px 40px;
+    box-shadow: 3px 2px 1px black;
+    border-radius: 10px;
+}
+
+main article h1 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+main article p {
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    margin: 0px 20px 0px 20px;
+}
+
+/* Fim do article */
+
+main ul {
+    margin-left: 40px;
+}
+
+main ul li {
+    margin-bottom: 20px;
+}
+
+main ul li a {
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+main ul li a:hover {
+    font-family: navegacao,Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: rgb(111, 0, 255);
+}
+
+
+
 footer {
     height: 190px;
     background-image: linear-gradient(to left,var(--cor_cabecalho),var(--cor_cabecalho2));
 }
+
 footer p {
     text-align: center;
     text-shadow: 1px 1px 1px rgb(255, 255, 255);
